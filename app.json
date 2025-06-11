@@ -1,15 +1,20 @@
 {
   "expo": {
-    "name": "QuickHabitTracker",
-    "slug": "QuickHabitTracker",
+    "name": "Quick Habit Tracker",
+    "slug": "quick-habit-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "quickhabittracker",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "description": "A beautiful, simple habit tracker focused on building one habit at a time.",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.martinsw.QuickHabitTracker",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -37,6 +42,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "274bfaec-2eab-4af3-a0ea-2b6b945803c9"
+      }
     }
   }
 }
