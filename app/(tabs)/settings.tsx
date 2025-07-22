@@ -100,7 +100,7 @@ export default function SettingsScreen() {
         {/* App Info */}
         <SettingsSection title="About">
           <View style={styles.appInfoContainer}>
-            <Text style={styles.appIcon}>✨</Text>
+            <Text style={styles.appIcon}></Text>
             <View style={styles.appInfoText}>
               <Text style={styles.appName}>Quick Habit Tracker</Text>
               <Text style={styles.appVersion}>Version 1.0.0</Text>
@@ -115,23 +115,23 @@ export default function SettingsScreen() {
         <SettingsSection title="Features">
           <View style={styles.featureList}>
             <View style={styles.featureItem}>
-              <Text style={styles.featureIcon}>🎯</Text>
+              <Text style={styles.featureIcon}></Text>
               <Text style={styles.featureText}>Focus on one habit at a time</Text>
             </View>
             <View style={styles.featureItem}>
-              <Text style={styles.featureIcon}>🔒</Text>
+              <Text style={styles.featureIcon}></Text>
               <Text style={styles.featureText}>All data stored locally on your device</Text>
             </View>
             <View style={styles.featureItem}>
-              <Text style={styles.featureIcon}>📊</Text>
+              <Text style={styles.featureIcon}></Text>
               <Text style={styles.featureText}>Track streaks and completion rates</Text>
             </View>
             <View style={styles.featureItem}>
-              <Text style={styles.featureIcon}>🌟</Text>
+              <Text style={styles.featureIcon}></Text>
               <Text style={styles.featureText}>Beautiful, minimalist design</Text>
             </View>
             <View style={styles.featureItem}>
-              <Text style={styles.featureIcon}>🔕</Text>
+              <Text style={styles.featureIcon}></Text>
               <Text style={styles.featureText}>No ads, no analytics, no tracking</Text>
             </View>
           </View>
@@ -171,7 +171,7 @@ export default function SettingsScreen() {
         {/* Footer */}
         <View style={styles.footer}>
           <Text style={styles.footerText}>
-            Made with ❤️ for building better habits
+            Made with love for building better habits
           </Text>
           <Text style={styles.footerSubtext}>
             © 2025 Quick Habit Tracker
